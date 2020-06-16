@@ -7,10 +7,11 @@ public:
 	Player(): power_(0) { }
 	~Player();
 	
-	void takeCard(Deck d);
+	void takeCard(Deck d, Card c);
 	void playCard(Card c);
 
 	Deck getHand() const;
+	//void setHand();
 	Deck getBoard() const;
 	int getPower() const;
 

@@ -3,7 +3,7 @@ class Card
 {
 public:
 	enum class Type {PowerPlus, PowerMinus, Steal};
-	Card(Type t, int power) : power_(power), type_(type) {}
+	Card(Type t, int power) : power_(power), type_(t) {}
 	~Card() = default;
 	
 	Type getType() const { return type_; }
