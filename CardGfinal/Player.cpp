@@ -1,6 +1,6 @@
 #include "Player.h"
 
-void Player::takeCard(Deck d, Card c)
+void Player::takeCard(Deck& d, Card c)
 {
 	hand_.push(d.pop(c));
 }
@@ -24,3 +24,4 @@ int Player::getPower() const
 {
 	return power_;
 }
+ 

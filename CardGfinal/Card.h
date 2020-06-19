@@ -5,7 +5,9 @@ public:
 	enum class Type {PowerPlus, PowerMinus, Steal};
 	Card(Type t, int power) : power_(power), type_(t) {}
 	~Card() = default;
-	
+
+	bool equals(const Card& c) const;
+	void printCard() const;
 	Type getType() const { return type_; }
 	int getPower() const { return power_; }
 private:

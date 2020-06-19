@@ -4,10 +4,10 @@
 class Player
 {
 public:
-	Player(): power_(0) { }
+	Player() : power_(0) { }
 	~Player();
 	
-	void takeCard(Deck d, Card c);
+	void takeCard(Deck& d, Card c);
 	void playCard(Card c);
 
 	Deck getHand() const;

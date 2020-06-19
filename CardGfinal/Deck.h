@@ -1,22 +1,25 @@
 #pragma once
+#include <string>
 #include <vector>
-#include <cstdlib>
 
 #include "Card.h"
 
 class Deck
 {
 public:
-	Deck(int cards, int maxValue);
-	~Deck();
+	Deck() {}
+	Deck(int cards);
+	~Deck() = default;
 	
 	void push(Card c);
+	Card at(int i);
 	Card pop(Card c);
     int size();
 	bool isEmpty();
 	void print();
 	
 private:
+	//d::string name_;
 	std::vector<Card> deck_;
 };
 

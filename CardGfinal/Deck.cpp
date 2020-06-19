@@ -1,7 +1,9 @@
 #include "Deck.h"
+
+#include <iostream>
 #include <random>
 
-Deck::Deck(int cards, int maxValue)
+Deck::Deck(int cards)
 {
 	int plusCards = 3*(cards / 6) + cards % 6;
 	int minusCards = 2*(cards / 6);
@@ -9,21 +11,21 @@ Deck::Deck(int cards, int maxValue)
 
 	std::random_device rd;
 	std::mt19937 gen(rd());
-	std::uniform_int_distribution<> distr(1, maxValue);
+	std::uniform_int_distribution<> distr(1, 10);
 	
 	for(int i=0; i<plusCards; i++)
 	{
-		Card card = new Card(Card::Type::PowerPlus, distr(gen));
+		Card card = Card(Card::Type::PowerPlus, distr(gen));
 			deck_.push_back(card);
 	}
 	for (int i = 0; i < minusCards; i++)
 	{
-		Card card = new Card(Card::Type::PowerMinus, distr(gen));
+		Card card = Card(Card::Type::PowerMinus, distr(gen));
 		deck_.push_back(card);
 	}
 	for (int i = 0; i < stealCards; i++)
 	{
-		Card card = new Card(Card::Type::Steal, distr(gen));
+		Card card = Card(Card::Type::Steal, distr(gen));
 		deck_.push_back(card);
 	}
 	
@@ -34,9 +36,28 @@ void Deck::push(Card c)
 	deck_.push_back(c);
 }
 
-Card Deck::pop(Card c)
+Card Deck::at(int i)
 {
-	deck_.erase(std::remove(deck_.begin(), deck_.end(), c), deck_.end());
+	return deck_.at(i);
+}
+
+Card Deck::pop(Card c) 
+{
+
+	int a = 0;
+ 
+	auto i = std::begin(deck_);
+	while(i != std::end(deck_))
+	{
+		if(i->equals(c))
+		{
+			deck_.erase(i);
+			break;
+		}
+		++i;
+	}
+    
+	//deck_.erase(std::remove(deck_.begin(), deck_.end(), c), deck_.end());
 	return c;
 }
 
@@ -47,11 +68,21 @@ int Deck::size()
 
 bool Deck::isEmpty()
 {
-	if (deck_.size() > 0)
-		return false;
+	if (deck_.empty()) 
+		return true;
+	else return false;
 	
 }
 
 void Deck::print()
 {
+	int i = 1;
+	//std::cout << "Cards in deck are: " << std::endl;
+	for (Card c : deck_)
+	{
+		std::cout << i << " ";
+		c.printCard();
+		std::cout << std::endl;
+		i++;
+	}
 }
