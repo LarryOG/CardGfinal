@@ -13,10 +13,10 @@ bool Card::equals(const Card& c) const
 void Card::printCard() const
 {
 	if (this->getType() == Type::Steal)
-	{
+	{  //if power is odd
 		if (this->power_ & 1)
 			std::cout << "Steal: steal random card";
-		else
+		else //if power is even
 			std::cout << "Steal: choose a card to steal";
 	} else if (this->getType() == Type::PowerMinus)
 	{

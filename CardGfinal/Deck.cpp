@@ -86,3 +86,23 @@ void Deck::print()
 		i++;
 	}
 }
+
+Card Deck::popSteal()
+{
+	for (Card c : deck_)
+	{
+		if (c.getType()==Card::Type::Steal)
+		{
+			return c;
+		}
+	}
+}
+ 
+Card Deck::popPowerPlus()
+{
+	
+}
+
+Card Deck::popPowerMinus()
+{
+}

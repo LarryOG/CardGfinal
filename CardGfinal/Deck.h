@@ -1,4 +1,4 @@
-#pragma once
+ #pragma once
 #include <string>
 #include <vector>
 
@@ -6,10 +6,21 @@
 
 class Deck
 {
+	using Container = std::vector<Card>;
 public:
-	Deck() {}
+	using iterator = Container::iterator;
+	using const_iterator = Container::const_iterator;
+	
+	Deck() {};
 	Deck(int cards);
 	~Deck() = default;
+
+	iterator begin() { return deck_.begin(); }
+	iterator end() { return deck_.end(); }
+	const_iterator begin() const { return deck_.begin(); }
+	const_iterator end() const { return deck_.end(); }
+	const_iterator cbegin() const { return deck_.cbegin(); }
+	const_iterator cend() const { return deck_.cend(); }
 	
 	void push(Card c);
 	Card at(int i);
@@ -17,9 +28,13 @@ public:
     int size();
 	bool isEmpty();
 	void print();
+
+	Card popSteal();
+	Card popPowerPlus();
+	Card popPowerMinus();
 	
 private:
 	//d::string name_;
-	std::vector<Card> deck_;
+	Container deck_;
 };
 
