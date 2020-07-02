@@ -1,4 +1,6 @@
 #pragma once
+#include <fstream>
+
 #include "Player.h"
 #include "VirtualPlayer.h"
 
@@ -16,16 +18,19 @@ public:
 	void printState();
 	void save();
 	std::string getLeader();
-	Player* getActivePlayer();
 	void endGame();
 
 	int get_turn();
 	Player* get_player();
-	Player* get_opponent(); 
-	
+	Player* get_opponent();
+	Player* getActivePlayer();
+
 private:
+	std::ofstream results;
 	Player* player_;
 	Player* opponent_;
+	Player* activePlayer_;
+
 	int turn_;
 };
 

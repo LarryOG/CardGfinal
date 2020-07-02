@@ -46,7 +46,7 @@ void Game::prep()
 void Game::startGame()
 {
 	try {
-		turn_ = 1;
+		turn_ = 1; activePlayer_ = opponent_; 
 		std::cout << "\n Starting game, brace yourself!\n";
 		while (!opponent_->getHand().isEmpty() || !player_->getHand().isEmpty())
 		{
@@ -80,6 +80,7 @@ void Game::startGame()
 				std::cout << " board are:\n ";
 				player_->getBoard().print();
 				this->printState();
+				this->save();
 				this->nextTurn();
 			}
 
@@ -94,6 +95,22 @@ void Game::startGame()
 void Game::nextTurn()
 {
 	++turn_;
+	if (turn_ & 1 && !opponent_->getHand().isEmpty())
+	{
+		activePlayer_= opponent_;
+	}
+	else if (turn_ & 1 && opponent_->getHand().isEmpty())
+	{
+		activePlayer_ = player_;
+	}
+	if (!(turn_ & 1) && !player_->getHand().isEmpty())
+	{
+		activePlayer_ = player_;
+	}
+	if (!(turn_ & 1) && player_->getHand().isEmpty())
+	{
+		activePlayer_ = opponent_;
+	}
 }
 
 void Game::cardPlayed(Card* c)
@@ -245,7 +262,7 @@ void Game::cardPlayed(Card* c)
 void Game::printState()
 {
 	std::cout << "\n Turn: \n "<<turn_<<"\n Player in charge: \n "<< getLeader();
-	std::cout << "\n Card played this turn ";
+	std::cout << "\n Card played this turn, ";
 	if (this->getActivePlayer()==opponent_)
 	{
 		std::cout << "by " << opponent_->getName() << std::endl;
@@ -279,6 +296,13 @@ void Game::printState()
 	}
 }
 
+void Game::save()
+{
+	//results.open("results.txt", std::ios_base::app);
+	//results << this->printState();
+	
+}
+
 std::string Game::getLeader()
 {
 	if (player_->getPower() > opponent_->getPower())
@@ -290,22 +314,7 @@ std::string Game::getLeader()
 
 Player* Game::getActivePlayer()
 {
-			if (turn_ & 1 && !opponent_->getHand().isEmpty())
-			{
-				return opponent_;
-			}
-			else if (turn_ & 1 && opponent_->getHand().isEmpty())
-			{
-				return player_;
-			}
-			if (!(turn_ & 1) && !player_->getHand().isEmpty())
-			{
-				return player_;
-			}
-		    if (!(turn_ & 1) && player_->getHand().isEmpty())
-			{
-				return opponent_;
-			}
+	return activePlayer_;
 }
 
 int Game::get_turn()
