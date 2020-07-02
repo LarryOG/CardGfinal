@@ -15,34 +15,35 @@ std::string Player::getName() const
 	return name_;
 }
 
-void Player::setName() const
-{
-}
 
 Deck Player::getHand() const
 {
 	return hand_;
 }
 
-void Player::setHand() const
+void Player::setHand(Deck d)
 {
+	hand_ = d;
 }
+
 
 Deck Player::getBoard() const
 {
 	return board_;
 }
 
-void Player::setBoard() const
-{
-}
 
 int Player::getPower() const
 {
 	return power_;
 }
 
-void Player::setPower() const
+void Player::setPower(int p) 
 {
+	power_ = p;
 }
  
+void Player::removeFromHand(Card c)
+{
+	hand_.pop(c);
+}

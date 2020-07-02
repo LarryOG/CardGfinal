@@ -3,15 +3,20 @@
 #include <iostream>
 #include <random>
 
+#include "OutOfBoundsException.h"
+
 Deck::Deck(int cards)
 {
-	int plusCards = 3*(cards / 6) + cards % 6;
-	int minusCards = 2*(cards / 6);
-	int stealCards = cards / 6;
-
-	std::random_device rd;
+    std::random_device rd;
 	std::mt19937 gen(rd());
 	std::uniform_int_distribution<> distr(1, 10);
+	
+	int minusCards = distr(gen);
+	int plusCards = cards-minusCards-3-2;
+	int stealCards = 3;
+	int doubleCards = 2;
+
+	
 	
 	for(int i=0; i<plusCards; i++)
 	{
@@ -28,7 +33,13 @@ Deck::Deck(int cards)
 		Card card = Card(Card::Type::Steal, distr(gen));
 		deck_.push_back(card);
 	}
-	
+	for (int i = 0; i < doubleCards; i++)
+	{
+		Card card = Card(Card::Type::Double, 0);
+		deck_.push_back(card);
+	}
+	auto rng = std::default_random_engine{};
+	std::shuffle(begin(), end(), rng);
 }
 
 void Deck::push(Card c)
@@ -38,13 +49,25 @@ void Deck::push(Card c)
 
 Card Deck::at(int i)
 {
-	return deck_.at(i);
+	int s = deck_.size();
+	if (s >= --i && i>=0)
+    {		
+		return deck_.at(i);
+    }
+	else
+	{
+		throw OutOfBoundsException();
+	}
+	
+		
+	
+	
 }
 
 Card Deck::pop(Card c) 
 {
 
-	int a = 0;
+	
  
 	auto i = std::begin(deck_);
 	while(i != std::end(deck_))
@@ -57,8 +80,12 @@ Card Deck::pop(Card c)
 		++i;
 	}
     
-	//deck_.erase(std::remove(deck_.begin(), deck_.end(), c), deck_.end());
 	return c;
+}
+
+Card Deck::back()
+{
+	return deck_.back();
 }
 
 int Deck::size()
@@ -77,17 +104,17 @@ bool Deck::isEmpty()
 void Deck::print()
 {
 	int i = 1;
-	//std::cout << "Cards in deck are: " << std::endl;
 	for (Card c : deck_)
 	{
 		std::cout << i << " ";
 		c.printCard();
-		std::cout << std::endl;
 		i++;
 	}
 }
 
-Card Deck::popSteal()
+
+
+Card Deck::popSteal() 
 {
 	for (Card c : deck_)
 	{
@@ -96,13 +123,4 @@ Card Deck::popSteal()
 			return c;
 		}
 	}
-}
- 
-Card Deck::popPowerPlus()
-{
-	
-}
-
-Card Deck::popPowerMinus()
-{
 }

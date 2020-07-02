@@ -4,7 +4,9 @@
 #include <iostream>
 
 #include "Deck.h"
+#include "OutOfBoundsException.h"
 #include "Player.h"
+#include "Game.h"
 
 
 int main()
@@ -33,92 +35,126 @@ int main()
 	
 	mainDeck.print();
 	*/
-	Player player1 = Player();
-	Player player2 = Player();
-	Deck deck = Deck(20);
+	/*
+	try {
+		Player player1 = Player();
+		Player player2 = Player();
+		Deck deck = Deck(20);
 
-	std::cout << "deck generated" << std::endl;
-	deck.print();
-	std::cout << "player1, pick a card" << std::endl;
-	int cardNumber;
-	std::cin >> cardNumber;
-	player1.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player1 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player2, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player2.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player2 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player1, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player1.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player1 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player2, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player2.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player2 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player1, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player1.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player1 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player2, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player2.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player2 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player1, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player1.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player1 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player2, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player2.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player2 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player1, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player1.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player1 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << "player2, pick a card" << std::endl;
-	std::cin >> cardNumber;
-	player2.takeCard(deck, deck.at(--cardNumber));
-	std::cout << "player2 picked a card " << cardNumber << std::endl;
-	deck.print();
-	std::cout << std::endl << std::endl;
+		std::cout << "deck generated" << std::endl;
+		deck.print();
+		std::cout << "\n" << deck.size() << "\n";
+		std::cout << "player1, pick a card" << std::endl;
+		int cardNumber;
+		std::cin >> cardNumber;
+		player1.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player1 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "\n" << deck.size() << "\n";
 
-	std::cout << "player1 hand has " << player1.getHand().size() << " cards:" << std::endl;
-	player1.getHand().print();
-	std::cout << "player2 hand has " << player2.getHand().size() << " cards:" << std::endl;
-	player2.getHand().print();
+		std::cout << "player2, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player2.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player2 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "\n" << deck.size() << "\n";
 
-	std::cout << "player1 play a card. \n";
-	std::cin >> cardNumber;
-	player1.playCard(player2.getHand().at(--cardNumber));
-	std::cout << "player1 hand has \n";
-	player1.getHand().print();
-	std::cout << "player2 hand has \n";
-	player2.getHand().print();
-	std::cout << "player1 board has \n";
-	player1.getBoard().print();
+		std::cout << "player1, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player1.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player1 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "\n" << deck.size() << "\n";
 
+		std::cout << "player2, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player2.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player2 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "\n" << deck.size() << "\n";
 
+		std::cout << "player1, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player1.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player1 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "player2, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player2.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player2 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "player1, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player1.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player1 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "player2, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player2.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player2 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "player1, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player1.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player1 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << "player2, pick a card" << std::endl;
+		std::cin >> cardNumber;
+		player2.takeCard(deck, deck.at(cardNumber));
+		std::cout << "player2 picked a card " << cardNumber << std::endl;
+		deck.print();
+		std::cout << std::endl << std::endl;
+
+		std::cout << "player1 hand has " << player1.getHand().size() << " cards:" << std::endl;
+		player1.getHand().print();
+		std::cout << "player2 hand has " << player2.getHand().size() << " cards:" << std::endl;
+		player2.getHand().print();
+
+		std::cout << "player1 play a card. \n";
+		std::cin >> cardNumber;
+		player1.playCard(player2.getHand().at(cardNumber));
+		std::cout << "player1 hand has \n";
+		player1.getHand().print();
+		std::cout << "player2 hand has \n";
+		player2.getHand().print();
+		std::cout << "player1 board has \n";
+		player1.getBoard().print();
+	}
+	catch (OutOfBoundsException &)
+	{
+		std::cout << "\nCard number out of range\n";
+	}
+
+	*/
 	
+try
+{
+	std::cout << "Enter name:\n";
+	std::string name;
+	std::cin >> name;
+
+	Game g(name);
+	g.prep();
+	std::cout << "\n\n Prep finished.\n\n ";
+	g.startGame();
 
 }
+catch (const std::exception&)
+{
+	std::cout << "\n\n Something went wrong.\n\n ";
+}
+	catch (OutOfBoundsException &)
+	{
+		std::cout << "\n\n Card number out of bounds.\n\n ";
+	}
+/*
+Player player2 = Player();
+Deck deck = Deck(20);
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+std::cout << "deck generated" << std::endl;
+deck.print();
+std::cout << "Computer pick a card" << std::endl;
+player2.takeCard(deck, deck.popSteal());
+player2.getHand().print();
+*/
+}

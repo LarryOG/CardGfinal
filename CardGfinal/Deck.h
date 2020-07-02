@@ -25,16 +25,15 @@ public:
 	void push(Card c);
 	Card at(int i);
 	Card pop(Card c);
+	Card back();
     int size();
 	bool isEmpty();
 	void print();
+	
 
 	Card popSteal();
-	Card popPowerPlus();
-	Card popPowerMinus();
 	
 private:
-	//d::string name_;
 	Container deck_;
 };
 
