@@ -129,24 +129,26 @@ int main()
 	
 try
 {
-	std::cout << "Enter name:\n";
+	std::cout << " Welcome to Card-G \n ";
 	std::string name;
-	std::cin >> name;
+	while (std::cout << "Enter player name to start:\n " && !(std::cin >> name)) {
+		std::cin.clear(); //clear bad input flag
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
+		std::cout << " Invalid input; please re-enter.\n ";
+	}
 
 	Game g(name);
 	g.prep();
 	std::cout << "\n\n Prep finished.\n\n ";
 	g.startGame();
+	g.endGame();
 
 }
-catch (const std::exception&)
+
+catch (OutOfBoundsException &)
 {
-	std::cout << "\n\n Something went wrong.\n\n ";
-}
-	catch (OutOfBoundsException &)
-	{
 		std::cout << "\n\n Card number out of bounds.\n\n ";
-	}
+}
 /*
 Player player2 = Player();
 Deck deck = Deck(20);

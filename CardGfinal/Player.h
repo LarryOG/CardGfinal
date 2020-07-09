@@ -7,7 +7,8 @@ public:
 	Player():power_(0) {};
 	Player(std::string name, int power) :
 	name_(name), power_(power) {}
-	~Player()=default;  
+
+	virtual ~Player()=default;  
 	
 	virtual void takeCard(Deck& d, Card c);
 	virtual void playCard(Card c);

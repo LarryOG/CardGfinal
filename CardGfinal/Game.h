@@ -15,7 +15,7 @@ public:
 	void startGame();
 	void nextTurn();
 	void cardPlayed(Card* c);
-	void printState();
+	void printState(std::ostream& os);
 	void save();
 	std::string getLeader();
 	void endGame();
@@ -26,7 +26,7 @@ public:
 	Player* getActivePlayer();
 
 private:
-	std::ofstream results;
+	
 	Player* player_;
 	Player* opponent_;
 	Player* activePlayer_;

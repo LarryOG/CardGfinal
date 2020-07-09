@@ -1,4 +1,5 @@
 #pragma once
+#include <iosfwd>
 class Game;
 
 class Card
@@ -9,7 +10,7 @@ public:
 	~Card() = default;
 
 	bool equals(const Card& c) const;
-	void printCard() const;
+	void printCard(std::ostream &os) const;
 	Type getType() const { return type_; }
 	void setType(Type t) { type_ = t; }
 	int getPower() const { return power_; }

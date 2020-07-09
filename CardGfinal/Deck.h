@@ -28,7 +28,7 @@ public:
 	Card back();
     int size();
 	bool isEmpty();
-	void print();
+	void print(std::ostream& os);
 	
 
 	Card popSteal();

@@ -16,22 +16,22 @@ bool Card::equals(const Card& c) const
 
 }
 
-void Card::printCard() const
+void Card::printCard(std::ostream& os) const
 {
 	if (this->getType() == Type::Steal)
 	{  //if power is odd
 		if (this->power_ & 1)
-			std::cout << " Steal: steal random card" << "\n ";
+			os << " Steal: steal random card" << "\n ";
 		else //if power is even
-			std::cout << " Steal: choose a card to steal" << "\n ";
+			os << " Steal: choose a card to steal" << "\n ";
 	} else if (this->getType() == Type::PowerMinus)
 	{
-		std::cout << " Power Minus: " << this->power_ << "\n ";
+		os << " Power Minus: " << this->power_ << "\n ";
 	}else if (this->getType() == Type::PowerPlus)
 	{
-		std::cout << " Power Plus: " << this->power_ << "\n ";
+		os << " Power Plus: " << this->power_ << "\n ";
 	}else if (this->getType()==Type::Double)
 	{
-		std::cout << " Double: double your power\n ";
+		os << " Double: double your power\n ";
 	}
 }

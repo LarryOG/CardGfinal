@@ -27,19 +27,7 @@ void VirtualPlayer::takeCard(Deck& d, Card c)
 				++it;
 			}
 		}
-		if (size == this->getHand().size())
-		{
-			it = d.begin();
-			while (it != d.end())
-			{
-				if (it->getType() == Card::Type::Double)
-				{
-					this->hand_.push(d.pop(*it));
-					break;
-				}
-				++it;
-			}
-		}
+		
 		if (size == this->getHand().size())
 		{
 			it = d.begin();

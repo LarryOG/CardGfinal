@@ -101,13 +101,13 @@ bool Deck::isEmpty()
 	
 }
 
-void Deck::print()
+void Deck::print(std::ostream& os)
 {
 	int i = 1;
 	for (Card c : deck_)
 	{
-		std::cout << i << " ";
-		c.printCard();
+		os << i << " ";
+		c.printCard(os);
 		i++;
 	}
 }

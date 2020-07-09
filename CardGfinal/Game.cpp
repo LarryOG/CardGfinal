@@ -9,31 +9,42 @@
 void Game::prep()
 {
 	Deck deck(20);
-	std::cout << "\nDeck generated.\n";
+	std::cout << "\n Main Deck generated.\n" << " Now choose 5 cards you wish to play with, one at a time.\n";
+	std::cout << " Similarly, your opponent will select 1 card at a time, until both of you have 5 card to play.\n";
 	while(opponent_->getHand().size()!=5 || player_->getHand().size()!=5)
 	{
 		try {
-			std::cout << "\n Choose a card from main deck\n ";
-			deck.print();
-			std::cout << std::endl;
+			std::cout << "\n There are "<<deck.size()<<" cards in main deck now.\n ";
+			deck.print(std::cout);
+			std::cout << "\n ";
 			if (turn_ & 1)
 			{
-				std::cout << opponent_->getName() << " choose a card. \n";
+				std::cout << opponent_->getName() << " has " << opponent_->getHand().size();
+				std::cout << " cards in hand now. \n ";
+				std::cout << player_->getName() << " has " << player_->getHand().size() << " cards in hand now.\n ";
+				std::cout << opponent_->getName() << ", choose a card now.\n ";
 				opponent_->takeCard(deck, deck.at(1));
-				std::cout << "\nCard chosen. Cards in "<<opponent_->getName();
-				std::cout << " hand are now:\n";
-				opponent_->getHand().print();
+				std::cout << "\n Card chosen. Cards in "<<opponent_->getName();
+				std::cout << " hand are now:\n ";
+				opponent_->getHand().print(std::cout);
 				nextTurn();
 			}
 			else
 			{
-				std::cout << player_->getName() << " choose a card. \n";
+				std::cout << player_->getName() << " has " << player_->getHand().size();
+				std::cout << " cards in hand now.\n ";
+				std::cout << opponent_->getName() << " has " << opponent_->getHand().size() << " cards in hand now.\n ";
 				int cardNumber;
-				std::cin >> cardNumber;
+				while (std::cout << player_->getName() << ", choose a card now.\n " && !(std::cin >> cardNumber)) {
+					std::cin.clear(); //clear bad input flag
+					std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
+					std::cout << "Invalid input; please re-enter.\n ";
+				}
+				
 				player_->takeCard(deck, deck.at(cardNumber));
-				std::cout << "\nCard chosen. Cards in " << player_->getName();
-				std::cout << " hand are now:\n";
-				player_->getHand().print();
+				std::cout << "\n Card chosen. Cards in " << player_->getName();
+				std::cout << " hand are now:\n ";
+				player_->getHand().print(std::cout);
 				nextTurn();
 			}
 		}catch (OutOfBoundsException &)
@@ -46,6 +57,8 @@ void Game::prep()
 void Game::startGame()
 {
 	try {
+		std::ofstream results;
+		results.open("results.txt", std::ios_base::app);
 		turn_ = 1; activePlayer_ = opponent_; 
 		std::cout << "\n Starting game, brace yourself!\n";
 		while (!opponent_->getHand().isEmpty() || !player_->getHand().isEmpty())
@@ -62,25 +75,29 @@ void Game::startGame()
 				opponent_->playCard(opponent_->getHand().at(i));
 				std::cout << "\n Card played. Cards on " << opponent_->getName();
 				std::cout << " board are:\n ";
-				opponent_->getBoard().print();
-				this->printState();
+				opponent_->getBoard().print(std::cout);
+				this->printState(std::cout);
+				this->printState(results);
 				this->nextTurn();
 			}
 			else if (this->getActivePlayer() == player_)
 			{
 				std::cout << "\n " << player_->getName() << " turn. Play card.\n";
 				int cardNumber;
-				std::cout << " Choose a card to play:\n ";
-				std::cin >> cardNumber;
+				while (std::cout << " Choose a card to play:\n " && (!(std::cin >> cardNumber) || cardNumber > player_->getHand().size() || cardNumber < 1)) {
+					std::cin.clear(); //clear bad input flag
+					std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
+					std::cout << " Invalid input; please re-enter.\n ";
+				}
 				Card* card = &player_->getHand().at(cardNumber);
 				this->cardPlayed(card);
 				player_->playCard(player_->getHand().at(cardNumber));
 
 				std::cout << "\n Card played. Cards on " << player_->getName();
 				std::cout << " board are:\n ";
-				player_->getBoard().print();
-				this->printState();
-				this->save();
+				player_->getBoard().print(std::cout);
+				this->printState(std::cout);
+				this->printState(results);
 				this->nextTurn();
 			}
 
@@ -142,6 +159,8 @@ void Game::cardPlayed(Card* c)
 					c->setType(Card::Type::PowerPlus);
 					c->setPower(1);
 					this->cardPlayed(c);
+					std::cout << "\n no cards to steal- transforming to PowerPlus: 1\n ";
+
 				}
 			}
 			else
@@ -163,6 +182,7 @@ void Game::cardPlayed(Card* c)
 					c->setType(Card::Type::PowerPlus);
 					c->setPower(1);
 					this->cardPlayed(c);
+					std::cout << "\n no cards to steal- transforming to PowerPlus: 1\n ";
 				}
 			}
 		}
@@ -188,6 +208,8 @@ void Game::cardPlayed(Card* c)
 					c->setType(Card::Type::PowerPlus);
 					c->setPower(1);
 					this->cardPlayed(c);
+					std::cout << "\n no cards to steal- transforming to PowerPlus: 1\n ";
+
 				}
 			}
 			else
@@ -195,8 +217,11 @@ void Game::cardPlayed(Card* c)
 				if (!this->get_opponent()->getHand().isEmpty())
 				{
 					int cardnumber;
-					std::cout << "\n Please choose a card to steal from opponents hand. \n";
-					std::cin >> cardnumber;
+					while (std::cout << "\n Please choose a card to steal from opponents hand. \n " && !(std::cin >> cardnumber)) {
+						std::cin.clear(); //clear bad input flag
+						std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //discard input
+						std::cout << "Invalid input; please re-enter.\n ";
+					}
 					Deck d = this->get_player()->getHand();
 					Card c = this->get_opponent()->getHand().at(cardnumber);
 					this->get_opponent()->removeFromHand(c);
@@ -208,6 +233,8 @@ void Game::cardPlayed(Card* c)
 					c->setType(Card::Type::PowerPlus);
 					c->setPower(1);
 					this->cardPlayed(c);
+					std::cout << "\n no cards to steal- transforming to PowerPlus: 1\n ";
+
 				}
 
 			}
@@ -259,49 +286,43 @@ void Game::cardPlayed(Card* c)
 	}
 }
 
-void Game::printState()
+void Game::printState(std::ostream& os)
 {
-	std::cout << "\n Turn: \n "<<turn_<<"\n Player in charge: \n "<< getLeader();
-	std::cout << "\n Card played this turn, ";
+	os << "\n Turn: \n "<<turn_<<"\n Player in charge: \n "<< getLeader();
+	os << "\n Card played this turn, ";
 	if (this->getActivePlayer()==opponent_)
 	{
-		std::cout << "by " << opponent_->getName() << std::endl;
-		opponent_->getBoard().back().printCard();
+		os << "by " << opponent_->getName() << std::endl;
+		opponent_->getBoard().back().printCard(os);
 	} else if(this->getActivePlayer()==player_ && turn_==7)
 	{
-		std::cout << "by " << opponent_->getName() << std::endl;
-		opponent_->getBoard().back().printCard();
+		os << "by " << opponent_->getName() << std::endl;
+		opponent_->getBoard().back().printCard(os);
 	}
 	else
 	{
-		std::cout << "by " << player_->getName() << std::endl;
-		player_->getBoard().back().printCard();
+		os << "by " << player_->getName() << std::endl;
+		player_->getBoard().back().printCard(os);
 	}
 	if (getLeader()==opponent_->getName())
 	{
-		std::cout << opponent_->getName() << "'s power level: " << opponent_->getPower();
-		std::cout << "\n " << player_->getName() << "'s power level: " << player_->getPower();
-		std::cout << "\n " << opponent_->getName() << "'s card's still to be played: \n ";
-		opponent_->getHand().print();
-		std::cout << player_->getName() << "'s card's still to be played: \n ";
-		player_->getHand().print();
+		os << opponent_->getName() << "'s power level: " << opponent_->getPower();
+		os << "\n " << player_->getName() << "'s power level: " << player_->getPower();
+		os << "\n " << opponent_->getName() << "'s card's still to be played: \n ";
+		opponent_->getHand().print(os);
+		os << player_->getName() << "'s card's still to be played: \n ";
+		player_->getHand().print(os);
 	}else
 	{
-		std::cout << player_->getName() << "'s power level: " << player_->getPower();
-		std::cout << "\n " << opponent_->getName() << "'s power level: " << opponent_->getPower();
-		std::cout << "\n " << player_->getName() << "'s card's still to be played: \n ";
-		player_->getHand().print();
-		std::cout << opponent_->getName() << "'s card's still to be played: \n ";
-		opponent_->getHand().print();
+		os << player_->getName() << "'s power level: " << player_->getPower();
+		os << "\n " << opponent_->getName() << "'s power level: " << opponent_->getPower();
+		os << "\n " << player_->getName() << "'s card's still to be played: \n ";
+		player_->getHand().print(os);
+		os << opponent_->getName() << "'s card's still to be played: \n ";
+		opponent_->getHand().print(os);
 	}
 }
 
-void Game::save()
-{
-	//results.open("results.txt", std::ios_base::app);
-	//results << this->printState();
-	
-}
 
 std::string Game::getLeader()
 {
@@ -310,6 +331,23 @@ std::string Game::getLeader()
 		return player_->getName();
 	}
 	else return opponent_->getName();
+}
+
+void Game::endGame()
+{
+
+	std::cout << "\n Game finished!\n ";
+	if (player_->getPower() > opponent_->getPower())
+	{
+		std::cout << "The winner is: " << player_->getName()<<"\n\n\n ";
+	}
+	else if (player_->getPower() == opponent_->getPower())
+	{
+		std::cout << "It's a draw!\n\n\n ";
+	}else
+	{
+		std::cout << "The winner is: " << opponent_->getName()<<"\n\n\n ";
+	}
 }
 
 Player* Game::getActivePlayer()

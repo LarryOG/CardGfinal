@@ -1,0 +1,1895 @@
+
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Double: double your power
+ 4  Power Minus: 8
+ 5  Power Plus: 8
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Double: double your power
+ 3  Power Minus: 9
+ 4  Power Minus: 9
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ aaaaaaaaaaaaaaaaaa
+ Card played this turn, by aaaaaaaaaaaaaaaaaa
+ Power Plus: 10
+ aaaaaaaaaaaaaaaaaa's power level: 10
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 9
+ 3  Power Minus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Double: double your power
+ 4  Power Minus: 8
+ 5  Power Plus: 8
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ aaaaaaaaaaaaaaaaaa
+ Card played this turn, by Computer
+ Steal: steal random card
+ aaaaaaaaaaaaaaaaaa's power level: 10
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Double: double your power
+ 3  Power Minus: 8
+ 4  Power Plus: 8
+ 5  Power Minus: 9
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ aaaaaaaaaaaaaaaaaa
+ Card played this turn, by aaaaaaaaaaaaaaaaaa
+ Double: double your power
+ aaaaaaaaaaaaaaaaaa's power level: 20
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 1  Power Minus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Double: double your power
+ 3  Power Minus: 8
+ 4  Power Plus: 8
+ 5  Power Minus: 9
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ aaaaaaaaaaaaaaaaaa
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ aaaaaaaaaaaaaaaaaa's power level: 20
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 8
+ 3  Power Plus: 8
+ 4  Power Minus: 9
+ 5  Power Minus: 9
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ aaaaaaaaaaaaaaaaaa
+ Card played this turn, by Computer
+ Power Minus: 9
+ aaaaaaaaaaaaaaaaaa's power level: 11
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 8
+ 3  Power Plus: 8
+ 4  Power Minus: 9
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ aaaaaaaaaaaaaaaaaa
+ Card played this turn, by Computer
+ Power Minus: 9
+ aaaaaaaaaaaaaaaaaa's power level: 2
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 8
+ 3  Power Plus: 8
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 8
+ Computer's power level: 0
+ aaaaaaaaaaaaaaaaaa's power level: -6
+ Computer's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 8
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 8
+ aaaaaaaaaaaaaaaaaa's power level: -6
+ Computer's card's still to be played: 
+ 1  Double: double your power
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Double: double your power
+ Computer's power level: 16
+ aaaaaaaaaaaaaaaaaa's power level: -6
+ Computer's card's still to be played: 
+ aaaaaaaaaaaaaaaaaa's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 10
+ Computer's power level: 10
+ Alice's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Steal: choose a card to steal
+ 4  Power Plus: 8
+ Alice's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 10
+ 3  Power Plus: 10
+ 4  Power Minus: 9
+ 5  Power Minus: 1
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by Alice
+ Power Plus: 10
+ Computer's power level: 10
+ Alice's power level: 10
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Steal: choose a card to steal
+ 4  Power Plus: 8
+ Alice's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 10
+ 3  Power Minus: 9
+ 4  Power Minus: 1
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Computer's power level: 10
+ Alice's power level: 10
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 8
+ 4  Power Minus: 1
+ Alice's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 10
+ 3  Power Minus: 9
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ Alice
+ Card played this turn, by Alice
+ Power Minus: 10
+ Alice's power level: 10
+ Computer's power level: 0
+ Alice's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Minus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 8
+ 4  Power Minus: 1
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Alice
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Alice's power level: 10
+ Computer's power level: 0
+ Alice's card's still to be played: 
+ 1  Power Minus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 8
+ 3  Power Minus: 1
+ 4  Double: double your power
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Double: double your power
+ Computer's power level: 0
+ matatar's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: choose a card to steal
+ 3  Steal: choose a card to steal
+ 4  Power Plus: 9
+ matatar's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Power Plus: 10
+ 3  Double: double your power
+ 4  Power Minus: 10
+ 5  Power Plus: 9
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ matatar
+ Card played this turn, by matatar
+ Power Plus: 10
+ matatar's power level: 10
+ Computer's power level: 0
+ matatar's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Double: double your power
+ 3  Power Minus: 10
+ 4  Power Plus: 9
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: choose a card to steal
+ 3  Steal: choose a card to steal
+ 4  Power Plus: 9
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ matatar
+ Card played this turn, by Computer
+ Steal: steal random card
+ matatar's power level: 10
+ Computer's power level: 0
+ matatar's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Double: double your power
+ 3  Power Plus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 9
+ 4  Power Minus: 10
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ matatar
+ Card played this turn, by matatar
+ Power Plus: 10
+ matatar's power level: 20
+ Computer's power level: 0
+ matatar's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 9
+ 4  Power Minus: 10
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ matatar
+ Card played this turn, by Computer
+ Power Plus: 9
+ matatar's power level: 20
+ Computer's power level: 9
+ matatar's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ matatar
+ Card played this turn, by matatar
+ Double: double your power
+ matatar's power level: 40
+ Computer's power level: 9
+ matatar's card's still to be played: 
+ 1  Power Plus: 9
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ matatar
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ matatar's power level: 40
+ Computer's power level: 9
+ matatar's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 10
+ 3  Power Plus: 9
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ matatar
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ matatar's power level: 40
+ Computer's power level: 10
+ matatar's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Power Minus: 10
+ 2  Power Plus: 9
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ matatar
+ Card played this turn, by Computer
+ Power Minus: 10
+ matatar's power level: 30
+ Computer's power level: 10
+ matatar's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ matatar
+ Card played this turn, by Computer
+ Power Plus: 9
+ matatar's power level: 30
+ Computer's power level: 19
+ matatar's card's still to be played: 
+ Computer's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Double: double your power
+ Computer's power level: 0
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Double: double your power
+ 4  Power Plus: 6
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 10
+ 3  Power Minus: 10
+ 4  Power Minus: 8
+ 5  Power Plus: 7
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by mmmmmmmmmmmmmmmmmmmmmmmm
+ Power Minus: 10
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -10
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 10
+ 3  Power Minus: 8
+ 4  Power Plus: 7
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Double: double your power
+ 4  Power Plus: 6
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by Computer
+ Power Plus: 6
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -4
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 10
+ 3  Power Minus: 8
+ 4  Power Plus: 7
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Double: double your power
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by mmmmmmmmmmmmmmmmmmmmmmmm
+ Power Minus: 10
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -14
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 8
+ 3  Power Plus: 7
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Double: double your power
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by Computer
+ Steal: steal random card
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -14
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ 1  Power Minus: 8
+ 2  Power Plus: 7
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Double: double your power
+ 3  Steal: choose a card to steal
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by mmmmmmmmmmmmmmmmmmmmmmmm
+ Power Minus: 8
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -22
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ 1  Power Plus: 7
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Double: double your power
+ 3  Steal: choose a card to steal
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -22
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Double: double your power
+ 3  Power Plus: 7
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by Computer
+ Double: double your power
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -44
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 7
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by Computer
+ Power Plus: 7
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -37
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ mmmmmmmmmmmmmmmmmmmmmmmm
+ Card played this turn, by Computer
+ Steal: steal random card
+ mmmmmmmmmmmmmmmmmmmmmmmm's power level: 0
+ Computer's power level: -36
+ mmmmmmmmmmmmmmmmmmmmmmmm's card's still to be played: 
+ Computer's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 8
+ lololololololololololololololololololololol's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Double: double your power
+ 3  Double: double your power
+ 4  Power Plus: 6
+ lololololololololololololololololololololol's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 8
+ 4  Power Plus: 7
+ 5  Power Plus: 6
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by lololololololololololololololololololololol
+ Steal: choose a card to steal
+ Computer's power level: 8
+ lololololololololololololololololololololol's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Double: double your power
+ 3  Double: double your power
+ 4  Power Plus: 6
+ lololololololololololololololololololololol's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 8
+ 3  Power Plus: 7
+ 4  Power Plus: 6
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 8
+ 5454542624626952648's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Minus: 8
+ 3  Power Plus: 7
+ 4  Power Plus: 5
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Minus: 10
+ 4  Power Minus: 10
+ 5  Power Plus: 5
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ 5454542624626952648
+ Card played this turn, by 5454542624626952648
+ Power Minus: 10
+ 5454542624626952648's power level: 0
+ Computer's power level: -2
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Minus: 10
+ 4  Power Plus: 5
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Minus: 8
+ 3  Power Plus: 7
+ 4  Power Plus: 5
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 8
+ Computer's power level: -2
+ 5454542624626952648's power level: -8
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 7
+ 3  Power Plus: 5
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Minus: 10
+ 4  Power Plus: 5
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ 5454542624626952648
+ Card played this turn, by 5454542624626952648
+ Power Minus: 10
+ 5454542624626952648's power level: -8
+ Computer's power level: -12
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 5
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 7
+ 3  Power Plus: 5
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 7
+ Computer's power level: -5
+ 5454542624626952648's power level: -8
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 5
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 5
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ Computer
+ Card played this turn, by 5454542624626952648
+ Steal: steal random card
+ Computer's power level: -5
+ 5454542624626952648's power level: -8
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 5
+ 3  Power Plus: 5
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: -5
+ 5454542624626952648's power level: -8
+ Computer's card's still to be played: 
+ 1  Power Plus: 5
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 5
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ 5454542624626952648
+ Card played this turn, by 5454542624626952648
+ Power Plus: 5
+ 5454542624626952648's power level: -3
+ Computer's power level: -5
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ Computer's card's still to be played: 
+ 1  Power Plus: 5
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 5
+ Computer's power level: 0
+ 5454542624626952648's power level: -3
+ Computer's card's still to be played: 
+ 5454542624626952648's card's still to be played: 
+ 1  Steal: steal random card
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ Computer
+ Card played this turn, by 5454542624626952648
+ Steal: steal random card
+ Computer's power level: 0
+ 5454542624626952648's power level: -2
+ Computer's card's still to be played: 
+ 5454542624626952648's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 8
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 9
+ 3  Power Plus: 9
+ 4  Power Plus: 9
+ asds's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 7
+ 4  Power Minus: 8
+ 5  Double: double your power
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by asds
+ Steal: choose a card to steal
+ Computer's power level: 8
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 9
+ 3  Power Plus: 9
+ 4  Power Plus: 9
+ asds's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 7
+ 3  Power Minus: 8
+ 4  Double: double your power
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 8
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 9
+ 3  Power Plus: 9
+ 4  Double: double your power
+ asds's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 7
+ 3  Power Minus: 8
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ Computer
+ Card played this turn, by asds
+ Power Minus: 8
+ Computer's power level: 0
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 9
+ 3  Power Plus: 9
+ 4  Double: double your power
+ asds's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 7
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 9
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 9
+ 3  Double: double your power
+ asds's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 7
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ Computer
+ Card played this turn, by asds
+ Steal: choose a card to steal
+ Computer's power level: 9
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 9
+ asds's card's still to be played: 
+ 1  Power Plus: 7
+ 2  Double: double your power
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 18
+ asds's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ asds's card's still to be played: 
+ 1  Power Plus: 7
+ 2  Double: double your power
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ Computer
+ Card played this turn, by asds
+ Power Plus: 7
+ Computer's power level: 18
+ asds's power level: 7
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ asds's card's still to be played: 
+ 1  Double: double your power
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 27
+ asds's power level: 7
+ Computer's card's still to be played: 
+ asds's card's still to be played: 
+ 1  Double: double your power
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 9
+ 123213123312312312's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Steal: steal random card
+ 4  Power Plus: 8
+ 123213123312312312's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 6
+ 3  Power Plus: 8
+ 4  Power Plus: 6
+ 5  Power Minus: 6
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Computer's power level: 0
+ lolololololololoolloolloololololo's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 4  Power Minus: 9
+ 5  Power Plus: 8
+ lolololololololoolloolloololololo's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Power Plus: 3
+ 3  Power Plus: 4
+ 4  Power Minus: 2
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ lolololololololoolloolloololololo
+ Card played this turn, by lolololololololoolloolloololololo
+ Power Minus: 2
+ lolololololololoolloolloololololo's power level: 0
+ Computer's power level: -2
+ lolololololololoolloolloololololo's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Power Plus: 3
+ 3  Power Plus: 4
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 4  Power Minus: 9
+ 5  Power Plus: 8
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 10
+ Computer's power level: 0
+ lololololololololololololololololol's power level: -10
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Steal: steal random card
+ 4  Power Plus: 9
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 10
+ 2  Power Plus: 4
+ 3  Power Plus: 4
+ 4  Power Plus: 5
+ 5  Power Minus: 4
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by lololololololololololololololololol
+ Power Plus: 10
+ Computer's power level: 0
+ lololololololololololololololololol's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Steal: steal random card
+ 4  Power Plus: 9
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 4
+ 3  Power Plus: 5
+ 4  Power Minus: 4
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 0
+ lololololololololololololololololol's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 9
+ 4  Power Minus: 4
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 4
+ 3  Power Plus: 5
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ lololololololololololololololololol
+ Card played this turn, by lololololololololololololololololol
+ Power Plus: 4
+ lololololololololololololololololol's power level: 4
+ Computer's power level: 0
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 5
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 9
+ 4  Power Minus: 4
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 4
+ Computer's power level: 0
+ lololololololololololololololololol's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 9
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 5
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ lololololololololololololololololol
+ Card played this turn, by lololololololololololololololololol
+ Power Plus: 4
+ lololololololololololololololololol's power level: 4
+ Computer's power level: 0
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 5
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 9
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 9
+ lololololololololololololololololol's power level: 4
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ lololololololololololololololololol's card's still to be played: 
+ 1  Power Plus: 5
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ Computer
+ Card played this turn, by lololololololololololololololololol
+ Power Plus: 5
+ Computer's power level: 9
+ lololololololololololololololololol's power level: 9
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ lololololololololololololololololol's card's still to be played: 
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 10
+ lololololololololololololololololol's power level: 9
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ lololololololololololololololololol's card's still to be played: 
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 11
+ lololololololololololololololololol's power level: 9
+ Computer's card's still to be played: 
+ lololololololololololololololololol's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 0
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 9
+ 3  Power Plus: 8
+ 4  Power Plus: 8
+ 5  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 4
+ 3  Power Plus: 6
+ 4  Power Plus: 6
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Steal: steal random card
+ Computer's power level: 0
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 9
+ 3  Power Plus: 8
+ 4  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 6
+ 3  Power Plus: 6
+ 4  Power Plus: 8
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 8
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 9
+ 3  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 6
+ 3  Power Plus: 6
+ 4  Power Plus: 8
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Power Plus: 4
+ Computer's power level: 8
+ mateusz's power level: 4
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 9
+ 3  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Power Plus: 6
+ 2  Power Plus: 6
+ 3  Power Plus: 8
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Computer's power level: 8
+ mateusz's power level: 4
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 8
+ 3  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Power Plus: 6
+ 2  Power Plus: 6
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ mateusz
+ Card played this turn, by mateusz
+ Power Plus: 6
+ mateusz's power level: 10
+ Computer's power level: 8
+ mateusz's card's still to be played: 
+ 1  Power Plus: 6
+ Computer's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 8
+ 3  Power Plus: 8
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 17
+ mateusz's power level: 10
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ 2  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Power Plus: 6
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Power Plus: 6
+ Computer's power level: 17
+ mateusz's power level: 16
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ 2  Power Plus: 8
+ mateusz's card's still to be played: 
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 25
+ mateusz's power level: 16
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ mateusz's card's still to be played: 
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 33
+ mateusz's power level: 16
+ Computer's card's still to be played: 
+ mateusz's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 9
+ maateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Power Plus: 10
+ 4  Power Plus: 9
+ maateusz's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 10
+ 3  Power Plus: 1
+ 4  Power Minus: 7
+ 5  Power Minus: 4
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by maateusz
+ Power Minus: 4
+ Computer's power level: 5
+ maateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Power Plus: 10
+ 4  Power Plus: 9
+ maateusz's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 10
+ 3  Power Plus: 1
+ 4  Power Minus: 7
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 10
+ Computer's power level: 15
+ maateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Power Plus: 9
+ maateusz's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 10
+ 3  Power Plus: 1
+ 4  Power Minus: 7
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ Computer
+ Card played this turn, by maateusz
+ Power Plus: 10
+ Computer's power level: 15
+ maateusz's power level: 10
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: steal random card
+ 3  Power Plus: 9
+ maateusz's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 1
+ 3  Power Minus: 7
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 15
+ maateusz's power level: 10
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 9
+ 3  Power Minus: 7
+ maateusz's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 1
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ Computer
+ Card played this turn, by maateusz
+ Steal: steal random card
+ Computer's power level: 15
+ maateusz's power level: 10
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 7
+ maateusz's card's still to be played: 
+ 1  Power Plus: 1
+ 2  Power Plus: 9
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Computer's power level: 15
+ maateusz's power level: 10
+ Computer's card's still to be played: 
+ 1  Power Minus: 7
+ 2  Power Plus: 1
+ maateusz's card's still to be played: 
+ 1  Power Plus: 9
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ maateusz
+ Card played this turn, by maateusz
+ Power Plus: 9
+ maateusz's power level: 19
+ Computer's power level: 15
+ maateusz's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Power Minus: 7
+ 2  Power Plus: 1
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ maateusz
+ Card played this turn, by Computer
+ Power Plus: 1
+ maateusz's power level: 19
+ Computer's power level: 16
+ maateusz's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Power Minus: 7
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 7
+ Computer's power level: 16
+ maateusz's power level: 12
+ Computer's card's still to be played: 
+ maateusz's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 9
+ Computer's power level: 9
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Steal: steal random card
+ 3  Power Plus: 8
+ 4  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 9
+ 3  Double: double your power
+ 4  Power Plus: 2
+ 5  Power Plus: 6
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Steal: choose a card to steal
+ Computer's power level: 9
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: steal random card
+ 2  Power Plus: 8
+ 3  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Power Minus: 9
+ 2  Double: double your power
+ 3  Power Plus: 2
+ 4  Power Plus: 6
+ 5  Steal: steal random card
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 9
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ 2  Power Plus: 8
+ 3  Power Plus: 6
+ mateusz's card's still to be played: 
+ 1  Power Minus: 9
+ 2  Double: double your power
+ 3  Power Plus: 2
+ 4  Steal: steal random card
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Power Minus: 9
+ Computer's power level: 0
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ 2  Power Plus: 8
+ 3  Power Plus: 6
+ mateusz's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 2
+ 3  Steal: steal random card
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 6
+ Computer's power level: 6
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ 2  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 2
+ 3  Steal: steal random card
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Steal: steal random card
+ Computer's power level: 6
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Power Plus: 8
+ mateusz's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 2
+ 3  Power Plus: 8
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 8
+ Computer's power level: 14
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ mateusz's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 2
+ 3  Power Plus: 8
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Power Plus: 8
+ Computer's power level: 14
+ mateusz's power level: 8
+ Computer's card's still to be played: 
+ mateusz's card's still to be played: 
+ 1  Double: double your power
+ 2  Power Plus: 2
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by mateusz
+ Power Plus: 2
+ Computer's power level: 14
+ mateusz's power level: 10
+ Computer's card's still to be played: 
+ mateusz's card's still to be played: 
+ 1  Double: double your power
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ mateusz
+ Card played this turn, by mateusz
+ Double: double your power
+ mateusz's power level: 20
+ Computer's power level: 14
+ mateusz's card's still to be played: 
+ Computer's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: steal random card
+ Computer's power level: 0
+ mateusz's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 9
+ 4  Power Minus: 10
+ 5  Power Minus: 4
+ mateusz's card's still to be played: 
+ 1  Power Plus: 8
+ 2  Power Plus: 4
+ 3  Power Plus: 9
+ 4  Power Plus: 2
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ mateusz
+ Card played this turn, by mateusz
+ Power Plus: 8
+ mateusz's power level: 8
+ Computer's power level: 0
+ mateusz's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 9
+ 3  Power Plus: 2
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 9
+ 4  Power Minus: 10
+ 5  Power Minus: 4
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 9
+ Computer's power level: 0
+ mateusz's power level: -1
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 4  Power Minus: 4
+ mateusz's card's still to be played: 
+ 1  Power Plus: 4
+ 2  Power Plus: 9
+ 3  Power Plus: 2
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ mateusz
+ Card played this turn, by mateusz
+ Power Plus: 4
+ mateusz's power level: 3
+ Computer's power level: 0
+ mateusz's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 2
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 4  Power Minus: 4
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 10
+ Computer's power level: 0
+ mateusz's power level: -7
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 4
+ mateusz's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 2
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ mateusz
+ Card played this turn, by mateusz
+ Power Plus: 9
+ mateusz's power level: 2
+ Computer's power level: 0
+ mateusz's card's still to be played: 
+ 1  Power Plus: 2
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 4
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ mateusz
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ mateusz's power level: 2
+ Computer's power level: 0
+ mateusz's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Minus: 4
+ 3  Power Plus: 2
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 4
+ Computer's power level: 0
+ mateusz's power level: -2
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Power Plus: 2
+ mateusz's card's still to be played: 
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Computer's power level: 1
+ mateusz's power level: -2
+ Computer's card's still to be played: 
+ 1  Power Plus: 2
+ mateusz's card's still to be played: 
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 2
+ Computer's power level: 3
+ mateusz's power level: -2
+ Computer's card's still to be played: 
+ mateusz's card's still to be played: 
+ 
+ Turn: 
+ 1
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ Computer's power level: 0
+ aaaaaaaa's power level: 0
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 10
+ 4  Power Minus: 10
+ 5  Power Plus: 2
+ aaaaaaaa's card's still to be played: 
+ 1  Power Plus: 7
+ 2  Power Plus: 9
+ 3  Power Plus: 7
+ 4  Power Minus: 8
+ 
+ Turn: 
+ 2
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by aaaaaaaa
+ Power Plus: 7
+ aaaaaaaa's power level: 7
+ Computer's power level: 0
+ aaaaaaaa's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 7
+ 3  Power Minus: 8
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 10
+ 4  Power Minus: 10
+ 5  Power Plus: 2
+ 
+ Turn: 
+ 3
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Plus: 10
+ Computer's power level: 10
+ aaaaaaaa's power level: 7
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 4  Power Plus: 2
+ aaaaaaaa's card's still to be played: 
+ 1  Power Plus: 9
+ 2  Power Plus: 7
+ 3  Power Minus: 8
+ 
+ Turn: 
+ 4
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by aaaaaaaa
+ Power Plus: 9
+ aaaaaaaa's power level: 16
+ Computer's power level: 10
+ aaaaaaaa's card's still to be played: 
+ 1  Power Plus: 7
+ 2  Power Minus: 8
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Minus: 10
+ 4  Power Plus: 2
+ 
+ Turn: 
+ 5
+ Player in charge: 
+ Computer
+ Card played this turn, by Computer
+ Power Minus: 10
+ Computer's power level: 10
+ aaaaaaaa's power level: 6
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 2
+ aaaaaaaa's card's still to be played: 
+ 1  Power Plus: 7
+ 2  Power Minus: 8
+ 
+ Turn: 
+ 6
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by aaaaaaaa
+ Power Plus: 7
+ aaaaaaaa's power level: 13
+ Computer's power level: 10
+ aaaaaaaa's card's still to be played: 
+ 1  Power Minus: 8
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 3  Power Plus: 2
+ 
+ Turn: 
+ 7
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by Computer
+ Power Plus: 2
+ aaaaaaaa's power level: 13
+ Computer's power level: 12
+ aaaaaaaa's card's still to be played: 
+ 1  Power Minus: 8
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 
+ Turn: 
+ 8
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by aaaaaaaa
+ Power Minus: 8
+ aaaaaaaa's power level: 13
+ Computer's power level: 4
+ aaaaaaaa's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 2  Steal: choose a card to steal
+ 
+ Turn: 
+ 9
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ aaaaaaaa's power level: 13
+ Computer's power level: 5
+ aaaaaaaa's card's still to be played: 
+ Computer's card's still to be played: 
+ 1  Steal: choose a card to steal
+ 
+ Turn: 
+ 10
+ Player in charge: 
+ aaaaaaaa
+ Card played this turn, by Computer
+ Steal: choose a card to steal
+ aaaaaaaa's power level: 13
+ Computer's power level: 6
+ aaaaaaaa's card's still to be played: 
+ Computer's card's still to be played: 
+ 
